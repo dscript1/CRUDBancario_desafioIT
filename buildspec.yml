@@ -3,12 +3,12 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo Entered the build phase...
+      - echo Entrando no build phase...
       - mvn clean package
   post_build:
     commands:
-        - echo Build completed sucessfully
+      - echo Build Finalizado com sucesso
 artifacts:
-  files: 
-    - target/CrudBancario.jar
-discard-paths: yes
+  files:
+    - target/projetoBancario.jar
+  discard-paths: yes
