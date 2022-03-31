@@ -1,1 +1,1 @@
-web: java -jar target/projetoBancario.jar
+web: java -jar target/CrudBancario.jar
