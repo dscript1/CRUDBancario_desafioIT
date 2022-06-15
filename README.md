@@ -1,17 +1,11 @@
-# desafio_CRUD_Bancario
+Project description: Presentation of an X-bank customer registration API with the CRUD (Create, Read, Update and Delete) method + Deploy on AWS using AWS Elastic Beanstalk, Remote Database (RDS) and AWS Codepipeline.
 
-Apresentação de uma API de cadastro de cadastro de clientes de um banco X com o método CRUD (Create, Read, Update and Delete) + Deploy na AWS usando a AWS Elastic Beanstalk, banco de dados remoto (RDS) e a AWS Codepipeline.
+Languages: Java 11, SQL
 
-Softwares utilizados:
-- Spring Tool Suite 4 (2.6.4);
-- Postman;
-- MySQL;
-- H2 Database.
+Softwares: Spring Tool Suite 4, H2 Database, MySQL Workbench, Postman
 
-Linguagem usada:
-- JAVA 11.
+Cloud: AWS (RDS, Codepipeline & Elastic Beanstalk)
 
-CI/CD:
-- AWS RDS;
-- AWS Codepipeline;
-- AWS Elastic Beanstalk.
+Framework: Spring Maven
+
+Result: RESTful API listing all the customers of X-bank.
